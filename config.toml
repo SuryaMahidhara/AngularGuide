@@ -1,0 +1,75 @@
+baseurl = "https://angular2-style-guide.herokuapp.com/"
+languageCode = "en-us"
+title = "Angular2 Style Guide"
+author = "Suryateja Mahidhara"
+theme = "blackburn"
+canonifyurls = true
+
+[indexes]
+  tag = "angular2 style guide"
+  topic = "angular2 style guide"
+
+[params]
+  subtitle = "Definitive style guide for Angular 2.X"
+  brand = "Angular 2.X Style Guide"
+
+  custom_css = ["css/style.css"]
+  custom_js = ["js/script.js"]
+
+[menu]
+  [[menu.main]]
+    name = "Introduction"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifer = "home"
+    url = "/"
+
+    [[menu.main]]
+    name = "Single Responsibility"
+    pre = ""
+    weight = 1
+    url = "/post/single-responsibility/"
+
+    [[menu.main]]
+    name = "Naming"
+    pre = ""
+    weight = 2
+    url = "/post/naming/"
+
+    [[menu.main]]
+    name = "Coding Conventions"
+    pre = ""
+    weight = 3
+    url = "/post/coding-conventions/"
+
+    [[menu.main]]
+    name = "App Structure and Angular Modules"
+    pre = ""
+    weight = 4
+    url = "/post/app-structure-and-angular-modules/"
+
+    [[menu.main]]
+    name = "Components"
+    pre = ""
+    weight = 5
+    url = "/post/components/"
+
+    [[menu.main]]
+    name = "Directives"
+    pre = ""
+    weight = 6
+    identifier = "directives"
+    url = "/post/directives"
+
+    [[menu.main]]
+    name = "Services"
+    pre = ""
+    weight = 7
+    identifier = "services"
+    url = "/post/services"
+
+    [[menu.main]]
+    name = "Data Services"
+    pre = ""
+    weight = 8
+    url = "/post/data-service"
